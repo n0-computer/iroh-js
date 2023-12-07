@@ -1,0 +1,36 @@
+{
+  "name": "@n0computer/iroh",
+  "author": "number 0 <npm@n0.computer>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "homepage": "https://iroh.computer",
+  "description": "A client for Iroh, an SDK for building fully distributed applications.",
+  "keywords": [
+    "iroh",
+    "client"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n0computer/iroh-js.git"
+  },
+  "bugs": "https://github.com/n0computer/iroh-js/issues",
+
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "src/index.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun run build.mjs"
+  },
+  "devDependencies": {
+    "bun-plugin-dts": "^0.2.1",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
